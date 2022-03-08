@@ -1,0 +1,70 @@
+:root {
+  --color-principal: hsla(211, 100%, 90%, 0.85);
+  --color-secundario: hsla(0, 0%, 90%, 0.8);
+}
+
+body {
+  background: url "../CSS/assets/patron.png";
+  background-image: url(/assets/patron.png);
+  font-family: Arial, Helvetica, Courier, Arial;
+  text-align: center;
+  margin: 38px;
+}
+
+header {
+  background: var(--color-principal);
+  padding: 26px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#destinos,
+#nosotros,
+#contacto {
+  margin: 20px;
+  padding: 20px;
+}
+footer {
+  padding: 50px;
+}
+
+input,
+button {
+  font-size: 30px;
+  border: 1px dotted gray;
+  border-radius: 0;
+}
+
+.btndestacado {
+  padding: 30px;
+  border-radius: 10px, 5px, 10px, 5px;
+}
+
+.btndestacado:hover {
+  background: var(--color-secundario);
+  color: darkslateblue;
+}
+
+.redes {
+  background: var(--color-principal);
+  padding: 90px;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+ol {
+  list-style: upper-roman;
+}
+a {
+  padding: 12px;
+  background: darkblue;
+  color: white;
+}
