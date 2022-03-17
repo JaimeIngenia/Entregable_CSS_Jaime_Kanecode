@@ -26,6 +26,15 @@ h1 {
   margin: 20px;
   padding: 20px;
 }
+#destinos {
+  background: var(--color-secundario);
+}
+#nosotros {
+  background: var(--color-secundario);
+}
+#contacto {
+  background: var(--color-secundario);
+}
 footer {
   padding: 50px;
 }
@@ -67,4 +76,40 @@ a {
   padding: 12px;
   background: darkblue;
   color: white;
+}
+.logo {
+  width: 500px;
+}
+#destinos ol li {
+  width: 20%;
+}
+#destinos ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#nosotros table img {
+  width: 150px;
+}
+#nosotros table {
+  display: flex;
+  justify-content: center;
+}
+#nosotros button {
+  background: #cbe0f6;
+}
+#contacto form {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+#contacto form input {
+  width: 150px;
+  font-size: 15px;
+}
+#contacto form button {
+  width: 150px;
+  font-size: 15px;
 }
